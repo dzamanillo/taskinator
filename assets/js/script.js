@@ -4,6 +4,7 @@ var buttonEl = document.querySelector("#save-task");
 // Targeting ul and saving query to var
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
+// Fuction for add task button
 var createTaskHandler = function () {
   var listItemEl = document.createElement("li"); // Create var for a new list item
   listItemEl.className = "task-item"; // gives list item a class
